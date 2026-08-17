@@ -1,3 +1,5 @@
+//Página ADM, configurar acesso por usuário e senha
+
 "use client"
 
 import Image from "next/image"
