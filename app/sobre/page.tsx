@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SobrePage() {
   return (
-    <main className="min-h-screen bg-gray-50 px-6 py-12">
+    <main className="min-h-screen bg-amber-100 px-6 py-12">
       <div className="mx-auto max-w-5xl">
 
         {/* Título */}
@@ -32,16 +32,16 @@ export default function SobrePage() {
 
           {/* Texto */}
           <div>
-            <h2 className="mb-5 text-3xl font-bold text-gray-900">
+            <h2 className="mb-5 text-3xl font-bold text-black">
               Bem-vindo ao nosso restaurante
             </h2>
 
-            <p className="mb-5 text-lg leading-8 text-gray-600">
+            <p className="mb-5 text-lg leading-8 text-gray-700">
               Somos um restaurante dedicado a oferecer comida saborosa,
               preparada com ingredientes selecionados e muito carinho.
             </p>
 
-            <p className="mb-6 text-lg leading-8 text-gray-600">
+            <p className="mb-6 text-lg leading-8 text-gray-700">
               Nosso compromisso é proporcionar uma experiência especial
               para nossos clientes, unindo qualidade, sabor e um
               atendimento acolhedor.
@@ -50,21 +50,21 @@ export default function SobrePage() {
             {/* Destaques */}
             <div className="grid grid-cols-3 gap-4">
 
-              <div className="rounded-xl bg-white p-4 text-center shadow-sm">
+              <div className="rounded-xl bg-amber-50 p-4 text-center shadow-sm">
                 <span className="text-2xl">🍽️</span>
                 <p className="mt-2 font-semibold text-gray-800">
                   Sabor
                 </p>
               </div>
 
-              <div className="rounded-xl bg-white p-4 text-center shadow-sm">
+              <div className="rounded-xl bg-amber-50 p-4 text-center shadow-sm">
                 <span className="text-2xl">⭐</span>
                 <p className="mt-2 font-semibold text-gray-800">
                   Qualidade
                 </p>
               </div>
 
-              <div className="rounded-xl bg-white p-4 text-center shadow-sm">
+              <div className="rounded-xl bg-amber-50 p-4 text-center shadow-sm">
                 <span className="text-2xl">❤️</span>
                 <p className="mt-2 font-semibold text-gray-800">
                   Carinho

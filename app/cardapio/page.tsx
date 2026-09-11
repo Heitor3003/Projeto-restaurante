@@ -39,7 +39,7 @@ export default function CardapioPage() {
   }, [])
 
   return (
-    <main className="p-8 bg-amber-50 h-screen">
+    <main className="p-8 bg-amber-100 h-screen">
 
       <Navbar />
       <h1 className="mb-6 text-3xl font-bold text-black">

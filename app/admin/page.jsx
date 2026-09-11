@@ -49,16 +49,16 @@ export default function AdminPage() {
 
     return (
 
-        <main className="min-h-screen bg-gray-100">
+        <main className="min-h-screen bg-amber-100">
 
             <Navbar />
 
           
             <div className="p-8">
 
-                <div className="mx-auto max-w-xl rounded-lg bg-white p-8 shadow">
+                <div className="mx-auto max-w-xl rounded-lg bg-amber-200 p-8 shadow">
 
-                    <h1 className="mb-6 text-3xl font-bold">
+                    <h1 className="mb-6 text-3xl font-bold text-black">
                         Cadastrar Lanche
                     </h1>
 
@@ -68,7 +68,7 @@ export default function AdminPage() {
                     >
 
                         <div>
-                            <label className="mb-1 block">
+                            <label className="mb-1 block text-black">
                                 Descrição
                             </label>
 
@@ -77,12 +77,12 @@ export default function AdminPage() {
                                 value={descricao}
                                 onChange={(e) => setDescricao(e.target.value)}
                                 placeholder="Ex: X-Bacon de salada com carne"
-                                className="w-full rounded border p-3"
+                                className="w-full rounded border p-3 text-gray-900"
                             />
                         </div>
 
                         <div>
-                            <label className="mb-1 block">
+                            <label className="mb-1 block text-black">
                                 Categoria
                             </label>
 
@@ -91,12 +91,12 @@ export default function AdminPage() {
                                 value={categoria}
                                 onChange={(e) => setCategoria(e.target.value)}
                                 placeholder="Categoria..."
-                                className="w-full rounded border p-3"
+                                className="w-full rounded border p-3 text-gray-900"
                             />
                         </div>
 
                         <div>
-                            <label className="mb-1 block">
+                            <label className="mb-1 block text-black">
                                 Preço
                             </label>
 
@@ -106,12 +106,12 @@ export default function AdminPage() {
                                 value={preco}
                                 onChange={(e) => setPreco(e.target.value)}
                                 placeholder="Ex: 10.00"
-                                className="w-full rounded border p-3"
+                                className="w-full rounded border p-3 text-gray-900"
                             />
                         </div>
 
                         <div>
-                            <label className="mb-1 block">
+                            <label className="mb-1 block text-black">
                                 Imagem
                             </label>
 
@@ -120,13 +120,13 @@ export default function AdminPage() {
                                 value={imagem}
                                 onChange={(e) => setImagem(e.target.value)}
                                 placeholder="Insira o link da imagem"
-                                className="w-full rounded border p-3"
+                                className="w-full rounded border p-3 text-gray-900"
                             />
                         </div>
 
                         <button
                             type="submit"
-                            className="w-full cursor-pointer rounded bg-orange-500 py-3 font-semibold text-white hover:bg-amber-600"
+                            className="w-full cursor-pointer rounded bg-orange-600 py-3 font-semibold text-white hover:bg-orange-800"
                         >
                             Cadastrar Lanche
                         </button>

@@ -12,9 +12,9 @@ export default function Pedidos() {
 
 
   return (
-    <main className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+    <main className="min-h-screen bg-amber-100 flex items-center justify-center p-6">
     
-    <div className="w-full max-w-lg bg-white rounded-xl shadow-md p-8 grid grid-cols gap-4">
+    <div className="w-full max-w-lg bg-amber-200 rounded-xl shadow-md p-8 grid grid-cols gap-4">
      
      <Image
      src="/logotipo-restaurante.jpg"
@@ -28,7 +28,7 @@ export default function Pedidos() {
 
       <input type="text"
       placeholder="Digite a descricao..."
-      className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm tex-gray-900"
+      className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900"
       />
 
       <input type="number"
@@ -38,20 +38,20 @@ export default function Pedidos() {
 
       <input type="text"
       placeholder="Digite a categoria..."
-      className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm tex-gray-900"
+      className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900"
       />
 
       <input type="text"
       placeholder="O lanche está disponivel?"
-      className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm tex-gray-900"
+      className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-900"
       />
 
       <button 
       onClick={cadastrar}
       className="w-full rounded-xl 
-      bg-blue-600 px-4 py-3 
+      bg-orange-600 px-4 py-3 
       font-medium text-white shadow-sm cursor-pointer 
-      hover:bg-blue-800" 
+      hover:bg-orange-800" 
       >
         Cadastrar
       </button>
